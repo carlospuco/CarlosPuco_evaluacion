@@ -1,0 +1,97 @@
+.logo-left {
+  background-image: url('../../utils/imgs/logo1.png');
+  background-position: 5px center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  width: 40px;
+  margin-right: 80px;
+}
+
+.logo-right {
+  background-image: url('../../utils/imgs/logo2.png');
+  background-position: 5px center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  width: 40px;
+  margin-left: 80px;
+}
+
+/* Estilos para el input del SearchBar */
+.input-wrapper input {
+  background-image: url('../../utils/imgs/logo3.png');
+  background-position: 5px center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  width: 500px; 
+  margin-top: 45px;
+}
+.search-bar-container {
+  background-color: #dae1eb;
+  padding: 10px;
+  border-radius: 10px;
+  height:200px;
+}
+
+.search-button{
+  position: absolute;
+  top: 22px;
+  right: 580px;
+  width: 40px; /* Ajusta el ancho del botón según tus preferencias */
+  height: 100%; /* Asegura que el botón ocupe toda la altura del input */
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1; /* Asegura que el botón esté sobre el input */
+}
+
+
+
+.search-bar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.search-bar-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar-header h2 {
+  margin: 0;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-top: 20px;
+}
+
+
+.input-label {
+  position: absolute;
+  top: 10px;
+  left: 18px;
+  margin-left: 60px;
+  pointer-events: none;
+  color: #999;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+
+.input-wrapper input {
+  width: 500px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+  font-size: 16px;
+  padding-left: 30px; /* Espacio para el ícono de la lupa */
+}

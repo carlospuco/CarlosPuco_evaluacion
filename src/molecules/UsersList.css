@@ -1,0 +1,9 @@
+.no-loading{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20x; /* Ajusta la altura según tus preferencias */
+  background-color: #dae1eb;
+  padding: 10px;
+  border-radius: 10px;
+}
